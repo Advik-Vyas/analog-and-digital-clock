@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;  
+    background: url(bg.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 5%;
+}
+
+#analog {
+    display: flex;
+    background: transparent;
+}
+
+#analog div{
+    margin: 5px;
+    position: relative;
+}
+
+#analog span {
+    width: 100px;
+    height: 80px;
+    background: gold;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 2px goldenrod;
+}
+
+#analog .text {
+    height: 30px;
+    font-size: 12px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: goldenrod;
+    opacity: 0.8;
+}
+
+#analog #ampm {
+    bottom: 0;
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    background: goldenrod;
+    justify-content: center;
+    align-items: center;
+}
